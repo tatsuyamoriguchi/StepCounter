@@ -41,8 +41,6 @@ struct ContentView: View {
             Text("\(step.count)")
             Text(step.date, style: .date)
                 .opacity(0.5)
-            
-            
         }
         
         // Display Authorization Request
