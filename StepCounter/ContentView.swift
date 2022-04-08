@@ -43,6 +43,7 @@ struct ContentView: View {
                 .opacity(0.5)
         }
         
+        
         // Display Authorization Request
             .onAppear() {
                 if let healthStore = healthStore {
